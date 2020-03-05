@@ -1,0 +1,68 @@
+body{
+    padding:10px;
+    width:380px;
+    margin:0 auto;
+    text-align: center;    
+}
+/* -- start header-- */
+header{
+    height:200px;
+    background-color: rgb(160, 176, 184);
+    border-radius: 15px 15px 0 0;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(185, 71, 71);
+}
+header .refresh{
+    position: absolute;
+    left:30px;
+    top: 20px;
+    color: rgb(119, 136, 153);
+}
+.container{
+    height: auto;
+    max-height:350px;
+    background-color: rgba(255, 255, 255, 0.637);
+    overflow: auto;
+}
+.container ul{
+    padding:0;
+    margin:0;
+}
+.container ul .item{
+
+    min-height: 45px;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+
+.container ul .item p{
+    position: absolute;
+    padding:0;
+    margin:0;
+    font-size: 20px;
+    left:50px;
+    top:5px;
+    background-color: rgb(248, 245, 245);
+    max-width:285px;
+}
+.container ul .item button{
+    color: rgb(119, 136, 153);
+    left:50px;
+    top:5px;
+    margin-top: 10px;
+    margin-left: 40px;
+
+}
+.add-to-do input{
+    font-size: 20px;
+    color: #3a5cf5;
+}
+.add-to-do button{
+    color: rgb(119, 136, 153);
+    left:50px;
+    top:5px;
+    margin-top: 10px;
+    margin-left: 40px;
+
+}
